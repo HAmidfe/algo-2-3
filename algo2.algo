@@ -1,0 +1,12 @@
+procedure calcul( int tab[4],i,nbr,somme:int)
+begin 
+write("donner le nobre delement de tableau" ) ; 
+read(nbr);
+write ("dooner les element des tableaux")  
+    for  (i = 0; i < nbr; i++)
+	read (tab[i]) 
+somme=0;
+for(i=0;i<nbr;i++)
+      somme = somme + tab[i];
+write ("la somme",somme)
+end calcul;

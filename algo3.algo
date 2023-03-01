@@ -1,0 +1,24 @@
+algorthime calcul produit 
+var 
+tab v(	3):reel ;
+tab u(3):reel ;
+i:int ; 
+p:reel ;
+
+begin 
+    for  (i = 0; i < 2; i++)
+{
+write("donner lemenet ",i+1,"du vecteur v") ;
+read (v(i)) ;
+write("donner lemenet ",i+1,"du vecteur u") ;
+read (u(i)) ;
+}
+p==0 ;
+   for  (i = 0; i < 2; i++)
+{ 
+P=p+v(i)*u(i)
+}
+write("le produit scalaire des vecteurs u et v est :",p);
+
+
+
